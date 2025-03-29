@@ -1,0 +1,90 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "editor.tabSize": 2,
+  "editor.rulers": [100],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderWhitespace": "boundary",
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "workbench.colorCustomizations": {
+    // Editor
+    "editor.background": "#282c34",
+    "editor.foreground": "#abb2bf",
+    "editorRuler.foreground": "#ff4081",
+    "editor.lineHighlightBackground": "#2c313c",
+    "editorLineNumber.foreground": "#367038",
+    "editorLineNumber.activeForeground": "#abb2bf",
+
+    // Activity Bar - using One Dark Pro blue
+    "activityBar.activeBackground": "#2e3c64", // Dark blue
+    "activityBar.background": "#21252b",
+    "activityBar.foreground": "#61afef", // One Dark Pro blue
+    "activityBar.inactiveForeground": "#abb2bf99",
+    "activityBarBadge.background": "#42731e", // One Dark Pro blue
+    "activityBarBadge.foreground": "#ffffff",
+    "commandCenter.border": "#abb2bf99",
+    "sash.hoverBorder": "#61afef", // One Dark Pro blue
+
+    // Status Bar
+    "statusBar.background": "#21252b",
+    "statusBar.foreground": "#abb2bf",
+    "statusBarItem.hoverBackground": "#2c313c",
+    "statusBarItem.remoteBackground": "#667088", // One Dark Pro blue
+    "statusBarItem.remoteForeground": "#ffffff",
+
+    // Title Bar
+    "titleBar.activeBackground": "#21252b",
+    "titleBar.activeForeground": "#abb2bf",
+    "titleBar.inactiveBackground": "#21252b99",
+    "titleBar.inactiveForeground": "#abb2bf99",
+
+    // Sidebar
+    "sideBar.background": "#21252b",
+    "sideBar.foreground": "#abb2bf",
+    "sideBarSectionHeader.background": "#282c34",
+
+    // Tabs
+    "tab.activeBackground": "#282c34",
+    "tab.activeBorder": "#61afef", // One Dark Pro blue
+    "tab.activeForeground": "#abb2bf",
+    "tab.inactiveBackground": "#21252b",
+    "tab.inactiveForeground": "#6b727d",
+    // "tab.border": "#abb2bf",
+
+    // Additional elements with accent colors
+    "progressBar.background": "#61afef", // One Dark Pro blue
+    "button.background": "#4d78cc", // Slightly darker blue
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#5f87e1", // Lighter blue on hover
+    "focusBorder": "#61afef" // One Dark Pro blue
+  }
+}
